@@ -1,0 +1,23 @@
+.tmpl {
+
+    /**
+     * GENERIC STYLE RULES
+     */
+
+    /**
+     * SIZE-SPECIFIC STYLE RULES
+     * (start small and work up)
+     */
+
+    @include respond-to($bp1) {
+
+    }
+
+    @include respond-to($bp2) {
+
+    }
+
+    @include respond-to($bp3) {
+
+    }
+}
